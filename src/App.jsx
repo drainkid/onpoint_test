@@ -19,7 +19,7 @@ const App = () => {
 
     useEffect(() => {
         if (currentPage === 1) {
-            setSectionKey(prevKey => prevKey + 1); 
+            setSectionKey(prevKey => prevKey + 1);
         }
     }, [currentPage]);
 
@@ -50,7 +50,7 @@ const App = () => {
                  onTouchStart={handleTouchSection}
                  onTouchEnd={handleTouchEndSection}
             >
-                <img src='src/assets/bg.jpg'
+                <img src='onpoint_test/src/assets/bg.jpg'
                      alt="Global Image"
                      className='bg-image'
 
