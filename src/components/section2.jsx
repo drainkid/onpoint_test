@@ -25,14 +25,12 @@ const Section2 = () => {
             // Ограничиваем перемещение кнопки в диапазоне 238 - 610
             const clampedY = Math.max(238, Math.min(newY, 610));
 
-            // Обновляем позицию кнопки
             setScrollPos(clampedY);
 
             // Пропорция перемещения кнопки от 238 до 610
             const scrollRange = 610 - 238;
             const moveRatio = (clampedY - 238) / scrollRange;
 
-            // Обновляем позицию текста в зависимости от перемещения кнопки
             const maxTextMove = -300; // Максимальное смещение текста
             const newTextTop = moveRatio * maxTextMove;
             setTextPos(newTextTop);

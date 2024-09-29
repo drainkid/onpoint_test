@@ -2,14 +2,13 @@ import {useEffect, useRef, useState} from "react";
 import Section2 from "./components/section2.jsx";
 import Section1 from "./components/section1.jsx";
 import Section3 from "./components/section3.jsx";
-import config from "./config.js";
 
 const App = () => {
 
     const containerRef = useRef(null);
     const [startX, setStartX] = useState(0);
     const [currentPage, setCurrentPage] = useState(0);
-    const [sectionKey, setSectionKey] = useState(0); // Уникальный ключ для Section2
+    const [sectionKey, setSectionKey] = useState(0);
 
 
 
@@ -52,9 +51,9 @@ const App = () => {
                  onTouchStart={handleTouchSection}
                  onTouchEnd={handleTouchEndSection}
             >
-               <img src="${config.imagePath}bg.png"
-                alt="Global Image"
-                className='bg-image'
+                <img src="src/assets/bg.jpg"
+                     alt="Global Image"
+                     className='bg-image'
                 />
 
                 <div className="sections-container">
@@ -71,8 +70,8 @@ const App = () => {
                      onClick={()=> setCurrentPage(0)}
                 />
                 <img src="src/assets/Shape1.png"
-                alt="Shape1"
-                className="global-image2"/>
+                     alt="Shape1"
+                     className="global-image2"/>
             </div>
 
 
