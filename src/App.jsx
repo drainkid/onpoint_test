@@ -2,6 +2,7 @@ import {useEffect, useRef, useState} from "react";
 import Section2 from "./components/section2.jsx";
 import Section1 from "./components/section1.jsx";
 import Section3 from "./components/section3.jsx";
+import config from "./config.js";
 
 const App = () => {
 
@@ -42,6 +43,7 @@ const App = () => {
     };
 
 
+
     return (
         <div>
 
@@ -50,11 +52,11 @@ const App = () => {
                  onTouchStart={handleTouchSection}
                  onTouchEnd={handleTouchEndSection}
             >
-                <img src='onpoint_test/src/assets/bg.jpg'
-                     alt="Global Image"
-                     className='bg-image'
-
+               <img src="${config.imagePath}bg.png"
+                alt="Global Image"
+                className='bg-image'
                 />
+
                 <div className="sections-container">
                     <Section1 setCurrentPage={setCurrentPage} />
                     <Section2 key={sectionKey}/>
