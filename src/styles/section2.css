@@ -1,0 +1,143 @@
+.txt-container {
+    position: absolute;
+    left: 1094px;
+    bottom: 564px;
+    font-family: 'DINPro', serif;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+}
+
+
+
+.textfield {
+    position: absolute;
+    left: 1150px;
+    top: 250px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    width: 803px;
+    height: 462px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.scroll-btn {
+    position: absolute;
+    left: 1086px;
+    height: 107px;
+    cursor: pointer;
+}
+
+
+.rectangle-btn {
+    position: absolute;
+    left: 1093px;
+    top: 250px;
+    height: 458px;
+}
+
+.scroll-cntrl {
+}
+
+.field1-text {
+    padding: 20px;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    font-family: 'DINPro', serif;
+    font-size: 18pt;
+    font-weight: 400;
+    overflow-y: hidden;
+}
+
+.pink-sperm3 {
+    position: absolute;
+    left: 1940px;
+    top: 530px;
+    width: 108px;
+}
+
+.pink-sperm4 {
+    position: absolute;
+    left: 1923px;
+    top: 415px;
+    width: 125px;
+}
+
+.pink-sperm5{
+    position: absolute;
+    left: 1605px;
+    top: 96px;
+    width: 408px;
+    opacity: 40%;
+    animation: raise 2s linear,
+    appear3 2s linear alternate
+}
+
+.pink-sperm6
+{
+    position: absolute;
+    left: 1726px;
+    top: 70px;
+    width: 260px;
+    opacity: 20%;
+    animation: raise 2s linear,
+    appear2 2s linear alternate
+}
+
+.pink-sperm7
+{
+    position: absolute;
+    left: 1388px;
+    top: 98px;
+    width: 660px;
+
+}
+
+@keyframes appear {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes raise {
+
+    0%
+    {
+        transform: Translate(150px, 150px);
+    }
+
+    100% {
+        transform: Translate(0px,0px);
+    }
+}
+
+@keyframes appear2 {
+    from {opacity: 0}
+    to {opacity: 0.2}
+}
+
+
+@keyframes appear3 {
+    from {opacity: 0}
+    to {opacity: 0.4}
+}
+
+@keyframes moveDiagonally {
+    0% {
+        transform: translate(0, 0); /* Начальная позиция */
+    }
+    50% {
+        transform: translate(-100px, 100px); /* Перемещение вперед и вверх */
+    }
+    100% {
+        transform: translate(0, 0); /* Возврат в начальное положение */
+    }
+}
+
+.pink-sperm3, .pink-sperm4, .pink-sperm7
+{
+    animation: raise 2s linear,
+    appear 2s linear alternate
+}
+

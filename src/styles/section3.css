@@ -1,0 +1,381 @@
+.bottle {
+    position: absolute;
+    left: 2100px;
+    height: 710px;
+    top: 81px;
+}
+
+.btn2 {
+    position: absolute;
+    left: 2758px;
+    top: 588px;
+    width: 271px;
+    height: 84px;
+}
+
+.textfield2 {
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 40px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 2312px;
+    top: 394px;
+    width: 400px;
+    height: 276px;
+
+}
+
+.field2-text {
+    position: absolute;
+    left: 107px;
+    font-family: 'DINPro', serif;
+    font-size: 18pt;
+    font-weight: 400;
+    top: 49px;
+    letter-spacing: 1px;
+}
+
+.field3-text {
+    position: absolute;
+    left: 42px;
+    font-family: 'DINPro', serif;
+    font-size: 18pt;
+    font-weight: 400;
+    top: 49px;
+    letter-spacing: 1px;
+}
+
+.textfield3 {
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 40px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 2758px;
+    top: 396px;
+    height: 152px;
+    width: 273px;
+}
+
+.field2-icon {
+
+    position: absolute;
+    left: 2414px;
+    top: 363px;
+    width: 70px;
+    height: 60px;
+}
+
+.field3-icon {
+    position: absolute;
+    left: 2800px;
+    top: 368px;
+    width: 70px;
+    height: 60px;
+}
+
+.key-msg {
+    position: absolute;
+    left: 2414px;
+    top: 169px;
+    width: 400px;
+    font-family: 'DINPro', serif;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+}
+
+.title-copy {
+    position: absolute;
+    left: 2406px;
+    top: 197px;
+    width: 400px;
+    font-family: 'DINPro', serif;
+    font-size: 73pt;
+    letter-spacing: 6pt;
+}
+
+@keyframes leftright2 {
+
+    0 % {
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translate(30px, 30px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes leftright {
+
+    0 % {
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+    75% {
+        width: 85px;
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        width: 233px;
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes move2 {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        width: 80px;
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes updown {
+    0%{
+        transform: Translate(0px, 0px);
+    }
+    50%{
+        transform: Translate(20px, 60px);
+    }
+    100%{
+        transform: Translate(0px, 0px);
+    }
+}
+
+.bubble1{
+    position: absolute;
+    left: 2273px;
+    top: 107px;
+    width: 40px;
+}
+
+.bubble2 {
+    position: absolute;
+    left: 2248px;
+    top: 191px;
+    width: 74px;
+    animation: updown 6s ease-in-out infinite;
+}
+
+.bubble3 {
+    position: absolute;
+    left: 2130px;
+    top: 232px;
+    width: 38px;
+    animation: leftright2 8s ease-in-out infinite; ;
+}
+
+.bubble4 {
+    position: absolute;
+    left: 2259px;
+    top: 333px;
+    width: 130px;
+    animation: move2 8s ease-in-out infinite;
+}
+
+.bubble5 {
+    position: absolute;
+    left: 2065px;
+    top: 474px;
+    width: 40px;
+    animation: leftright2 8s ease-in-out infinite;
+}
+
+.bubble6 {
+    position: absolute;
+    left: 2082px;
+    top: 578px;
+    width: 98px;
+    animation: leftright 8s ease-in-out infinite;
+}
+
+.bubble7 {
+    position: absolute;
+    left: 2332px;
+    top: 630px;
+    width: 61px;
+    animation: move2 8s ease-in-out infinite;
+}
+
+.bubble8 {
+    position: absolute;
+    left: 2243px;
+    top: 727px;
+    width: 185px;
+    animation: move 8s ease-in-out infinite;
+}
+
+
+.pgfield
+{
+    position: absolute;
+    left: 2243px;
+    top: 125px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    width: 803px;
+    height: 603px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.pagination {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    background-image: url("src/assets/bgpag.png"),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+}
+
+.close_btn {
+    position: absolute;
+    left: 735px;
+    width: 37px;
+    top: 35px;
+    display: inline-block;
+}
+
+
+.bgpag {
+    position: absolute;
+    left: 2048px;
+    width: 100vw;
+    height: 100vh;
+    opacity: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pg-01 {
+    position: relative;
+    left: 167px;
+    top: 174px;
+    font-family: 'Gilroy ExtraBold', serif;
+    font-size: 21pt;
+    color: #8cc9e8;
+}
+
+.pg-02 {
+    position: relative;
+    left: 167px;
+    top: 185px;
+    font-family: 'Gilroy ExtraBold', serif;
+    font-size: 21pt;
+    color: #8cc9e8;
+}
+
+.pg-03 {
+    position: relative;
+    left: 167px;
+    top: 204px;
+    font-family: 'Gilroy ExtraBold', serif;
+    font-size: 21pt;
+    color: #8cc9e8;
+}
+
+.dis-01
+{
+    position: relative;
+    left: 167px;
+    top: 175px;
+    font-family: 'DINPro', serif;
+    font-size: 21pt;
+    overflow-wrap: break-word;
+    width: 600px
+}
+
+.dis-02
+{
+    position: relative;
+    left: 167px;
+    top: 184px;
+    font-family: 'DINPro', serif;
+    font-size: 21pt;
+}
+
+.dis-03
+{
+    position: relative;
+    left: 167px;
+    top: 201px;
+    font-family: 'DINPro', serif;
+    font-size: 21pt;
+}
+
+.left_btn {
+    position: relative;
+    left: 166px;
+    top: 282px;
+    width: 10px;
+}
+
+.right_btn
+{
+    position: relative;
+    left: 242px;
+    top: 282px;
+    width: 10px;
+}
+
+.selected_btn
+{
+    position: relative;
+    left: 199px;
+    top: 256px;
+    width: 10px;
+}
+
+.not_selected_btn
+{
+    position: relative;
+    left: 211px;
+    top: 256px;
+    width: 10px;
+}
+
+.selected_btn2
+{
+    position: relative;
+    left: 211px;
+    top: 256px;
+    width: 10px;
+}
+
+.not_selected_btn2
+{
+    position: relative;
+    left: 200px;
+    top: 256px;
+    width: 10px;
+}
+
+.pgpages {
+
+    position: relative;
+    top: 42px;
+}

@@ -1,0 +1,156 @@
+.pink-sperm{
+    position: absolute;
+    left: 369px;
+    top: -49px;
+    width: 587px;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0); /* Начальная позиция */
+    }
+    50% {
+        width: 243px;
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes leftright {
+
+0 % {
+    transform: translateX(0);
+}
+    50%{
+        transform: translateX(50px);
+    }
+    75% {
+        width: 75px;
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes updown {
+    0%{
+        transform: Translate(0px, 0px);
+    }
+    50%{
+        transform: Translate(10px, 50px);
+    }
+    100%{
+        transform: Translate(0px, 0px);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translate(20px) rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg) translate(20px) rotate(360deg);
+    }
+}
+
+.bac {
+    position: absolute;
+    left: 798px;
+    top: -3px;
+    width: 110px;
+    animation: rotate 6s ease-in-out infinite;
+
+}
+
+
+.bac2 {
+    position: absolute;
+    left: 480px;
+    top: 441px;
+    width: 223px;
+    animation: move 6s ease-in-out infinite;
+}
+
+.bac3 {
+    position: absolute;
+    right: 318px;
+    top: -132px;
+    width: 130px;
+}
+
+.bac4{
+    position: absolute;
+    left: 678px;
+    top: -142px;
+    width: 64px;
+    animation: leftright 6s ease-in-out infinite;
+
+}
+.bac5 {
+    position: absolute;
+    left: -46px;
+    width: 76px;
+    top: 298px;
+    animation: updown 6s ease-in-out infinite;
+}
+
+.bac6 {
+    position: absolute;
+    left: 267px;
+    top: 424px;
+    width: 89px;
+}
+
+.bac7 {
+    position: absolute;
+    left: 836px;
+    width: 80px;
+    bottom: 606px;
+}
+
+.pink-sperm2 {
+    position: absolute;
+    top: 386px;
+    left: -64px;
+    width: 276px;
+}
+
+.hello-container {
+
+    position: absolute;
+    width: 337px;
+    height: 47px;
+    left: 66px;
+    top: 159px;
+    font-family: 'DINPro', serif;
+    font-size: 20pt;
+    letter-spacing: 1pt;
+
+}
+
+.title-container  {
+    position: absolute;
+    bottom: 59px;
+    left: 65px;
+    width: 383px;
+    font-family: 'Gilroy', serif;
+    font-size: 82pt;
+    letter-spacing: 4pt;
+    z-index: 1;
+}
+
+.bold {
+    font-family: 'Gilroy ExtraBold', serif;
+    position: absolute;
+    left: 271px;
+    top: -3px;
+}
+
+.title-btn {
+    position: relative;
+    left: 561px;
+    bottom: 137px;
+    width: 288px;
+    height: 82px;
+}

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'DINPro';
+    src: url('src/fonts/DINPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('src/fonts/Gilroy-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy ExtraBold';
+    src: url('src/fonts/Gilroy-ExtraBold.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.img-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+    transition: transform 0.3s ease;
+    overflow-x: hidden;
+
+}
+
+.bg-image {
+    object-fit: cover;
+    display: block;
+}
+
+.sections-container {
+    display: flex;
+    scroll-snap-type: x mandatory;
+
+}
+
+.global-container {
+    position: fixed;
+    top: 25px;
+    left: 64px;
+}
+
+.global-image{
+    width: 153px;
+}
+
+.global-image2{
+    width: 59px;
+    left: 67px;
+    position: fixed;
+    bottom: 13px;
+}
+
