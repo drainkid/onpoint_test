@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import Pagination from "./pagination.jsx";
 
 const Section3 = () => {
@@ -13,13 +13,13 @@ const Section3 = () => {
                             Ehicula Ipsum a arcu curlus vitae. Eu non diam phalellus vestibulum
                             lorem sed risus ultricies.
                         </div>
-                        <img src= 'src/assets/icon2.png'
-                        alt='icon2'
-                        className= 'field2-icon'/>
+                        <img src='/icon2.png'
+                             alt='icon2'
+                             className='field2-icon'/>
                     </div>
 
                     <div className="textfield3">
-                        <img src='src/assets/icon1.png'
+                        <img src='/icon1.png'
                              alt='field3_icon'
                              className='field3-icon'
                         />
@@ -30,14 +30,14 @@ const Section3 = () => {
                     </div>
 
                     <img
-                        src="src/assets/btn2.png"
+                        src="/btn2.png"
                         alt="btn2"
                         className="btn2"
                         onClick={() => setIsOpen(true)}
                     />
                 </div>
             ) : (
-                <Pagination setIsOpen={setIsOpen} />
+                <Pagination setIsOpen={setIsOpen}/>
             )}
 
             <div className="key-msg">{!isOpen ? "КЛЮЧЕВОЕ СООБЩЕНИЕ" : "ПРЕИМУЩЕСТВА"}</div>
@@ -46,15 +46,15 @@ const Section3 = () => {
                 BREND<strong>XY</strong>
             </div>
 
-            <img src="src/assets/bubble3.png" alt="bubble" className="bubble3" />
-            <img src="src/assets/bubble4.png" alt="bubble" className="bubble4" />
-            <img src="src/assets/bubble7.png" alt="bubble" className="bubble7" />
-            <img src="src/assets/bottle.png" alt="bottle" className="bottle" />
-            <img src="src/assets/bubble1.png" alt="bubble" className="bubble1" />
-            <img src="src/assets/bubble2.png" alt="bubble" className="bubble2" />
-            <img src="src/assets/bubble5.png" alt="bubble" className="bubble5" />
-            <img src="src/assets/bubble6.png" alt="bubble" className="bubble6" />
-            <img src="src/assets/bubble8.png" alt="bubble" className="bubble8" />
+            <img src="/bubble3.png" alt="bubble" className="bubble3"/>
+            <img src="/bubble4.png" alt="bubble" className="bubble4"/>
+            <img src="/bubble7.png" alt="bubble" className="bubble7"/>
+            <img src="/bottle.png" alt="bottle" className="bottle"/>
+            <img src="/bubble1.png" alt="bubble" className="bubble1"/>
+            <img src="/bubble2.png" alt="bubble" className="bubble2"/>
+            <img src="/bubble5.png" alt="bubble" className="bubble5"/>
+            <img src="/bubble6.png" alt="bubble" className="bubble6"/>
+            <img src="/bubble8.png" alt="bubble" className="bubble8"/>
         </div>
     );
 };

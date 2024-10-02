@@ -8,9 +8,9 @@ const Pagination = ({setIsOpen}) => {
     return (
         <div>
             <div className="pagination">
-                <img src= 'src/assets/bgpag.png'
-                alt='g'
-                className='bgpag'/>
+                <img src='/bgpag.png'
+                     alt='g'
+                     className='bgpag'/>
                 <div className="pgfield">
                     {(!page) ?
                         <div className='pgpages'>
@@ -33,11 +33,11 @@ const Pagination = ({setIsOpen}) => {
                             <div className="dis-03">
                                 Faucibus pulvinar elementum integer enim
                             </div>
-                            <img src='src/assets/selected.png'
+                            <img src='/selected.png'
                                  alt='selected_btn'
                                  className='selected_btn'/>
 
-                            <img src='src/assets/not_selected.png'
+                            <img src='/not_selected.png'
                                  alt='not_selected_btn'
                                  className='not_selected_btn'
                             />
@@ -63,28 +63,28 @@ const Pagination = ({setIsOpen}) => {
                             <div className="dis-03">
                                 Venetasis lectus magna fringilla urna
                             </div>
-                            <img src='src/assets/not_selected.png'
+                            <img src='/not_selected.png'
                                  alt='not_selected_btn'
                                  className='not_selected_btn2'
                             />
 
-                            <img src='src/assets/selected.png'
+                            <img src='/selected.png'
                                  alt='selected_btn'
                                  className='selected_btn2'/>
                         </div>
 
                     }
-                    <img src='src/assets/left.png'
+                    <img src='/left.png'
                          alt='left_btn'
                          className='left_btn'
                          onClick={() => setPage(false)}
                     />
-                    <img src='src/assets/right.png'
+                    <img src='/right.png'
                          alt='right_btn'
                          className='right_btn'
                          onClick={() => setPage(true)}
                     />
-                    <img src='src/assets/btn_close.png'
+                    <img src='/btn_close.png'
                          alt='close_btn'
                          className='close_btn'
                          onClick={() => setIsOpen(false)}

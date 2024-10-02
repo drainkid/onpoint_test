@@ -249,7 +249,7 @@
 .pagination {
     opacity: 0;
     animation: fadeIn 1s forwards;
-    background-image: url("src/assets/bgpag.png"),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url("/bgpag.png"),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 
 }
 

@@ -7,8 +7,6 @@ const Section2 = () => {
     const [isDragging, setIsDragging] = useState(false);
 
 
-
-
     const handleTouchStart = () => {
         setIsDragging(true);
     };
@@ -45,27 +43,27 @@ const Section2 = () => {
                     ТЕКСТ СООБЩЕНИЯ
                 </div>
 
-                <img src='src/assets/pink_sperm3.png'
+                <img src='/pink_sperm3.png'
                      alt='pink_sperm3'
                      className='pink-sperm3'
                 />
 
-                <img src='src/assets/pink_sperm4.png'
+                <img src='/pink_sperm4.png'
                      alt='pink_sperm4'
                      className='pink-sperm4'
                 />
 
-                <img src='src/assets/pink_sperm5.png'
+                <img src='/pink_sperm5.png'
                      alt='pink_sperm5'
                      className='pink-sperm5'
                 />
 
-                <img src='src/assets/pink_sperm5.png'
+                <img src='/pink_sperm5.png'
                      alt='pink_sperm6'
                      className='pink-sperm6'
                 />
 
-                <img src='src/assets/pink_sperm5.png'
+                <img src='/pink_sperm5.png'
                      alt='pink_sperm7'
                      className='pink-sperm7'
                 />
@@ -98,12 +96,12 @@ const Section2 = () => {
                      onTouchMove={handleTouchMove}
                      onTouchEnd={handleTouchEnd}
                 >
-                    <img src='src/assets/Rectangle.png'
+                    <img src='/Rectangle.png'
                          alt='rectangle'
                          className='rectangle-btn'
                     />
 
-                    <img src='src/assets/btn_scroll.png'
+                    <img src='/btn_scroll.png'
                          alt='btn_scroll'
                          className='scroll-btn'
                          style={{top: `${scrollPos}px`}} // Позиция кнопки

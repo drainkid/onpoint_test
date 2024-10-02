@@ -51,7 +51,7 @@ const App = () => {
                  onTouchStart={handleTouchSection}
                  onTouchEnd={handleTouchEndSection}
             >
-                <img src="src/assets/bg.jpg"
+                <img src="/bg.jpg"
                      alt="Global Image"
                      className='bg-image'
                 />
@@ -64,12 +64,12 @@ const App = () => {
             </div>
 
             <div className="global-container">
-                <img src="src/assets/global.png"
+                <img src="/global.png"
                      alt="Global Image"
                      className="global-image"
                      onClick={()=> setCurrentPage(0)}
                 />
-                <img src="src/assets/Shape1.png"
+                <img src="/Shape1.png"
                      alt="Shape1"
                      className="global-image2"/>
             </div>
